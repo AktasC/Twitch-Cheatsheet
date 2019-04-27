@@ -21,6 +21,7 @@
 - `!sc` Montre la date de souscription.  
 - `!subcount` Affiche le nombre d'abonnés.  
 
+--------
 
 ## Modérateurs  
 - `!kick {viewer} {X}` Exclure de `viewer`pour `X` minutes.  
@@ -48,6 +49,8 @@ Si `ID` n'est pas précisé, le morceau actuel sera supprimé, ce qui revient à
 - `!startsong` Démarrage du SongRequest.  
 - `!stopsong` Arrêt du SongRequest.  
 
+--------
+
 ## Streameur
 #### Set
 - `!uptime_goal start {X}` Démarrage d'un objectif d'uptime de `X` heures.  
@@ -56,6 +59,8 @@ Si `ID` n'est pas précisé, le morceau actuel sera supprimé, ce qui revient à
 #### Ranks
 - `!rank_reset {viewer}` Réinitialise les données de `viewer` (Uptime / Messages).  
 - `!level_reset {viewer}` Réinitialise le niveau de `viewer`.  
+
+--------
 
 ## Liens utiles
 #### [Réactiver Wizebot](https://panel.wizebot.tv/dashboard)  
