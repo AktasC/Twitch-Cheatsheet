@@ -1,10 +1,24 @@
-# Général
+## Général
 
-# WizeBot
+- `!fc {viewer}` Affiche le statut de follow de `viewer`.  
+- `!uptime` Affiche l'uptime de la session actuelle.  
+- `!viewers` Affiche le nombre de viewers.  
+- `!commands` / `!commandes` Affiche les commandes disponibles.  
+- `!host` Affiche du lien ClickToHost! .  
+
+### Streamer
+- `!uptime_goal start {X}` Démarrage d'un objectif d'uptime de `X` heures.  
+- `!uptime_goal stop` Arrêt de l'objectif.  
 - `!disable_wizebot` Désactive le bot, ne retourne aucun message.  
-[Réactiver Wizebot](https://panel.wizebot.tv/dashboard)
+[Réactiver Wizebot](https://panel.wizebot.tv/dashboard)  
 
-### Modération  
+### Viewer
+- `!quote` Citation aléatoire parmi celles enregistrées.  
+- `!quote add {text}` Création d'une nouvelle citation.
+- `!quote purge` Purge des citations en attente.
+- `!quote list` Liste toutes les citations.
+
+### Modérateur  
 - `!kick {viewer} {X}` Exclure de `viewer`pour `X` minutes.  
 Si `X` n'est pas précisé, `viewer` sera exclu pendant 3 minutes par défaut.   
 - `!ban {viewer}` Bannir `viewer` indéfiniment.  
@@ -18,8 +32,14 @@ Si `X` n'est pas précisé, `viewer` sera exclu pendant 3 minutes par défaut.
 - `~~~~~~ Modes`  
 - `!subon` / `!suboff` Active / Désactive le mode Subscriber-Only.  
 - `!follon` / `!folloff` Active / Désactive le mode Follower-Only.  
+- `~~~~~~ Quotes`
+- `!quote del {id}` Supprime la citation dont l'ID correspond à `id`.  
+- `!quote val {id}` / `!quote ref {id}` Valide / Refuse la citation en attente correspondant à `id`.  
+`id` peut être un ID de citation en attente ou le `viewer`.  
+
 
 ## SongRequest  
+
 - [Lecteur SR](https://tools.wizebot.tv/song_request/)  
 
 ### Viewer  
