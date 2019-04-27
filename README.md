@@ -1,4 +1,4 @@
-## Général
+## Global (Viewers + Subs + Mods)
 
 #### Divers
 - `!fc {viewer}` Affiche le statut de follow de `viewer`.  
@@ -16,6 +16,10 @@
 - `!quote add {text}` Création d'une nouvelle citation.
 - `!quote purge` Purge des citations en attente.
 - `!quote list` Liste toutes les citations.
+
+### Abonnés
+- `!sc` Montre la date de souscription.  
+- `!subcount` Affiche le nombre d'abonnés.  
 
 
 ## Modérateurs  
@@ -45,8 +49,16 @@ Si `ID` n'est pas précisé, le morceau actuel sera supprimé, ce qui revient à
 - `!stopsong` Arrêt du SongRequest.  
 
 ## Streameur
+#### Set
 - `!uptime_goal start {X}` Démarrage d'un objectif d'uptime de `X` heures.  
 - `!uptime_goal stop` Arrêt de l'objectif.  
 - `!disable_wizebot` Désactive le bot, ne retourne aucun message.  
+#### Ranks
+- `!rank_reset {viewer}` Réinitialise les données de `viewer` (Uptime / Messages).  
+- `!level_reset {viewer}` Réinitialise le niveau de `viewer`.  
+
+## Liens utiles
 #### [Réactiver Wizebot](https://panel.wizebot.tv/dashboard)  
 #### [Lecteur SR](https://tools.wizebot.tv/song_request/)  
+#### [Twinge](https://twinge.tv/channels/kaynabx)
+#### [TipeeStream](https://www.tipeeestream.com/dashboard/)
