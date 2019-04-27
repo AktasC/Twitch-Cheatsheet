@@ -6,7 +6,7 @@
 - `!viewers` Affiche le nombre de viewers.  
 - `!commands` / `!commandes` Affiche les commandes disponibles.  
 - `!host` Affiche du lien ClickToHost! .  
-#### SongRequest
+#### SongRequest®
 - `!sr {link}` Ajoute le titre correspondant à `Lien` dans la liste de lecture.  
 `link` peut être un titre de vidéo, un lien youtube ou un identifiant de vidéo youtube.   
 - `!currentsong` Affichage du titre du morceau actuellement joué.  
@@ -42,7 +42,7 @@ Si `X` n'est pas précisé, `viewer` sera exclu pendant 3 minutes par défaut.
 - `!quote del {id}` Supprime la citation dont l'ID correspond à `id`.  
 - `!quote val {id}` / `!quote ref {id}` Valide / Refuse la citation en attente correspondant à `id`.  
 `id` peut être un ID de citation en attente ou le `viewer`.  
-#### SongRequest
+#### SongRequest®
 - `!delsong {ID}` Suppression du titre correspondant à `ID`.  
 Si `ID` n'est pas précisé, le morceau actuel sera supprimé, ce qui revient à utiliser `!skipsong`.  
 - `!skipsong` Passe le morceau actuel.  
@@ -64,6 +64,6 @@ Si `ID` n'est pas précisé, le morceau actuel sera supprimé, ce qui revient à
 
 ## Liens utiles
 #### [Réactiver Wizebot](https://panel.wizebot.tv/dashboard)  
-#### [Lecteur SR](https://tools.wizebot.tv/song_request/)  
+#### [Lecteur SR®](https://tools.wizebot.tv/song_request/)  
 #### [Twinge](https://twinge.tv/channels/kaynabx)
 #### [TipeeStream](https://www.tipeeestream.com/dashboard/)
